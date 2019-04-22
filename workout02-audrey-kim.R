@@ -1,6 +1,6 @@
 library(shiny)
 library(ggplot2)
-library(reshape)
+library(reshape2)
 
 future_value <- function (amount = 100, rate = 0.05, years = 1) {
   amount * (1 + rate) ^ years
